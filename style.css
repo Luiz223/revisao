@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    font-family: 'Borel', cursive;
+
+}
+
+body{
+    background-color: #383F92;
+}
+
+header{
+    background-color: rgb(30, 21, 41);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 2px;
+    font-size: 20px;
+    transition: 1s;
+    padding: 0.5rem;
+    border-radius: 10px;
+
+}
+
+nav{
+    display: flex;
+    gap: 8rem;
+}
+
+header a:hover {
+    color: aqua;
+    transform: scale(1.1);
+    transition: transform .3s;
+}
